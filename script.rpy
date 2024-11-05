@@ -33,6 +33,18 @@ label start:
 
     third "You thats right son."
 
+    menu testScene: 
+        "Test1"
+        "A1":
+            "continue"
+        "A2":
+            "exit"
+            third "Asss exit 1"
+            third "Asss exit 2"
+            return
+
+    third "continue successful"
+
     # This ends the game.
 
     return
