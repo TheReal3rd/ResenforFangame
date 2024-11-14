@@ -299,6 +299,8 @@ screen navigation():
 
             textbutton _("Start") action Start()
 
+            textbutton _("StartTwo") action Jump("startEP2")
+
         else:
 
             textbutton _("History") action ShowMenu("history")
